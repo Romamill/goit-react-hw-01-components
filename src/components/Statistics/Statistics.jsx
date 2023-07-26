@@ -15,10 +15,10 @@ export const Statistics = ({ title, stats }) => {
     <section className="statistics">
       {title && <h2 className="title">{title}</h2>}
       <ul className="stat-list">
-        {stats.map((item) => (
-          <li key={item.id} className="item" style={{ backgroundColor: getRandomColor() }}>
-            <span className="label">{item.label}</span>
-            <span className="percentage">{`${item.percentage}%`}</span>
+        {stats.map((data) => (
+          <li key={data.id} className="item" style={{ backgroundColor: getRandomColor() }}>
+            <span className="label">{data.label}</span>
+            <span className="percentage">{`${data.percentage}%`}</span>
           </li>
         ))}
       </ul>
