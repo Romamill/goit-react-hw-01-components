@@ -8,14 +8,16 @@ import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
 export const App = () => {
   return (
-    <div
+    <div className="container"
       style={{
         height: '100vh',
         display: 'flex',
+        gap: '50px',
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101' 
+        
       }}
     >
       <Profile
