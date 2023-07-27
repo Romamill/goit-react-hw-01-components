@@ -1,4 +1,4 @@
-
+import './Statistics.scss';
 
 
 const getRandomColor = () => {
@@ -14,9 +14,9 @@ export const Statistics = ({ title, stats }) => {
   return (
     <section className="statistics">
       {title && <h2 className="title">{title}</h2>}
-      <ul className="stat-list">
+      <ul className="statistics-stats">
         {stats.map((data) => (
-          <li key={data.id} className="item" style={{ backgroundColor: getRandomColor() }}>
+          <li key={data.id} className="statistics-item" style={{ backgroundColor: getRandomColor() }}>
             <span className="label">{data.label}</span>
             <span className="percentage">{`${data.percentage}%`}</span>
           </li>

@@ -1,5 +1,6 @@
 import { FriendListItem } from '../FriendListItem/FriendListItem';
 import friends from '../../data/friends.json';
+import './friendlist.scss';
 
 export const FriendList = () => {
     return (
