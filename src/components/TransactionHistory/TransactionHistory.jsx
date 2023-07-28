@@ -1,3 +1,5 @@
+import './transactionhistory.scss';
+
 export const TransactionHistory = ({ items }) => {
   return (
     <table className="transaction-history">

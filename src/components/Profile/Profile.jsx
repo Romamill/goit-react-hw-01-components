@@ -1,4 +1,4 @@
-import './style.scss';
+import './profile.scss';
 
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {

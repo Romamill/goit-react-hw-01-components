@@ -2,32 +2,14 @@
 .friendlist-item {
     display: flex;
     align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.avatar {
+.friend-avatar {
     width: 48px;
     height: 48px;
     object-fit: cover;
-    border-radius: 50%;
     margin-right: 10px;
-   
-}
-
-.status {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 6px;
-
-    &.is-online {
-            background-color: green;
-        }
-    
-        
-        &.is-offline {
-            background-color: red;
-        }
 }
 
 

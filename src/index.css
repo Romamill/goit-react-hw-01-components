@@ -29,8 +29,8 @@ ul {
   width: 1440px;
   margin: 0 auto;
   padding: 18px;
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
+  align-items: flex-start;
 }
 
 h2 {
